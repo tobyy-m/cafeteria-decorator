@@ -1,16 +1,15 @@
 package ar.edu.unahur.obj2.decorator.infusiones;
 
-public class Te extends TeBase {
+public class TeDeLimon extends TeBase {
+
 
     @Override
     public String doExtra() {
-        return "";
+        return " de limón";
     }
 
     @Override
     public Double doCosto() {
-        return 2.0;
+        return 3.0;
     }
 }
-
-   
